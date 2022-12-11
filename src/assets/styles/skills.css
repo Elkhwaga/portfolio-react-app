@@ -1,0 +1,45 @@
+/* -- Skills Section
+ ---- ---- ---- ---- ----*/
+.skills .col-6 {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.skills .box {
+  row-gap: 25px;
+}
+
+.skills .progress .content {
+  margin-bottom: 10px;
+}
+
+.skills .progress .content span {
+  font-weight: 600;
+}
+
+.skills .progress .prog {
+  height: 10px;
+  background-color: rgb(181 181 181 / 66%);
+  border-radius: 20px;
+}
+
+.skills .progress .progress-done {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  color: var(--white-color);
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+
+.skills .info h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.skills .info p {
+  margin: 20px 0;
+  line-height: 1.5;
+  color: var(--blue-color);
+}

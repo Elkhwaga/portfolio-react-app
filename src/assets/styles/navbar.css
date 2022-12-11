@@ -1,0 +1,81 @@
+/* -- Navbar Section
+ ---- ---- ---- ---- ----*/
+.navbar {
+  padding: 15px 0;
+  position: relative;
+}
+
+nav.active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--white-color);
+  box-shadow: 0 2px 28px 0 rgba(0 0 0 /0.6);
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar ul.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.navbar ul li {
+  padding: 10px 0;
+}
+
+.navbar ul li > * {
+  cursor: pointer;
+  color: var(--black-color);
+}
+
+.navbar ul li .icon:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+nav ul li a:hover {
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: var(--main-color);
+}
+
+.navbar .toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul.nav-links {
+    display: none;
+  }
+
+  .navbar .toggle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid var(--black-color);
+    line-height: 0;
+    padding: 5px;
+  }
+
+  .navbar ul.nav-links-navbarigation-bar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    position: absolute;
+    background-color: var(--white-color);
+    top: 100%;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+  }
+  .navbar ul li.icons {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+/* -- Wrapper Section
+ ---- ---- ---- ---- ----*/
+
+.blog .card .card-body > span {
+  color: var(--second-color);
+  font-weight: 600;
+}
+
+.blog .card .card-body h5 {
+  margin: 10px 0;
+}
+
+.blog .card .card-body p {
+  margin-bottom: 10px;
+}
+.blog .card .card-body a {
+  color: var(--black-color);
+  transition: 0.5s;
+}
+
+.blog .card .card-body a:hover {
+  color: var(--second-color);
+}
+
+.blog .card .card-body a,
+.blog .card .card-body a span {
+  line-height: 0;
+}

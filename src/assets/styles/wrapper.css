@@ -1,0 +1,25 @@
+/* -- Wrapper Section
+ ---- ---- ---- ---- ----*/
+.wrapper {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.wrapper .info span {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.wrapper .info h4 {
+  font-size: 2.2rem;
+  margin: 20px 0;
+}
+
+.wrapper .info p {
+  width: 50%;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,29 @@
+/* -- Header Section
+ ---- ---- ---- ---- ----*/
+header .col-6 {
+  width: 50%;
+}
+
+header img {
+  object-fit: cover;
+}
+
+header .col-6:last-of-type {
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+header p {
+  line-height: 1.5;
+  margin: 20px 0;
+  color: var(--blue-color);
+}
+
+header .social {
+  column-gap: 20px;
+}

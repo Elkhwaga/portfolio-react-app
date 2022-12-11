@@ -1,0 +1,103 @@
+/* -- Footer Section
+ ---- ---- ---- ---- ----*/
+footer {
+  padding-top: 50px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+footer .col-3 {
+  width: 25%;
+  padding: 0px 10px;
+}
+
+footer p {
+  color: var(--blue-color);
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+footer .social {
+  column-gap: 10px;
+}
+
+footer .social > * {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 3px;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+footer ul li::before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--main-color);
+}
+
+footer ul li a {
+  color: var(--white-color);
+  transition: 0.5s;
+}
+
+footer ul li a:hover {
+  color: var(--main-color);
+}
+
+footer .content div:not(:last-of-type),
+footer .info div {
+  margin-bottom: 10px;
+}
+
+footer .content div h5 {
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+
+footer .content div span {
+  color: var(--main-color);
+  font-size: 0.9rem;
+}
+
+footer .info p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+footer .info div {
+  column-gap: 10px;
+}
+
+footer .info span {
+  color: var(--main-color);
+}
+
+footer .copyright {
+  padding: 20px 0px;
+  border-top: 1px solid var(--white-color);
+}
+
+footer .copyright p {
+  margin: 0;
+  text-align: center;
+}
+
+footer .copyright p strong {
+  margin-left: 5px;
+  color: var(--main-color);
+}

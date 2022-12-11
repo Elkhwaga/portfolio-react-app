@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #2a9a52;
+  --second-color: #f54ea2;
+  --white-color: rgb(255 255 255 / 70%);
+  --card-body-color: #ffffff;
+  --black-color: #08071c;
+  --blue-color: #6185a5;
+  --gray-color: #5c5c5c;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--black-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: var(--main-color);
+}
